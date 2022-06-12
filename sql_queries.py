@@ -86,7 +86,7 @@ song_select = ("""SELECT songs.title, artists.name
                   FROM songs JOIN artists
                   ON songs.artist_id = artists.artist_id
                   WHERE songs.title = %s AND
-                        artists.artist_artist_name = %s AND
+                        artists.artist_name = %s AND
                         songs.duration = %s;
                         
 """)
