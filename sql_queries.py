@@ -82,7 +82,7 @@ time_table_insert = ("""INSERT INTO time VALUES (%s, %s, %s, %s, %s, %s, %s)
 
 # FIND SONGS
 
-song_select = ("""SELECT songs.title, artists.name
+song_select = ("""SELECT songs.title, artists.artist_name
                   FROM songs JOIN artists
                   ON songs.artist_id = artists.artist_id
                   WHERE songs.title = %s AND
