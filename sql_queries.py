@@ -30,7 +30,7 @@ user_table_create = ("""CREATE TABLE IF NOT EXISTS users(
 )""")
 
 song_table_create = ("""CREATE TABLE IF NOT EXISTS songs(
-                        song_id int PRIMARY KEY, 
+                        song_id VARCHAR PRIMARY KEY, 
                         title VARCHAR NOT NULL, 
                         artist_id VARCHAR NOT NULL, 
                         year int CHECK(year >= 0), 
