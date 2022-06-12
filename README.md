@@ -26,7 +26,7 @@ We have used star schema for the data modeling. The database consists of 5 table
 
 ## Fact Table
 
-songplays: The table records log data associated with the song played by users. 
+* songplays: The table records log data associated with the song played by users. 
 
 ## Dimension Tables
 
@@ -65,5 +65,4 @@ Run the python scripts in the same order as given below.
 ```
 python create_tables.py 
 python etl.py 
-
 ```
