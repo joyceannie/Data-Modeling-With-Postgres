@@ -39,7 +39,7 @@ song_table_create = ("""CREATE TABLE IF NOT EXISTS songs(
 
 artist_table_create = ("""CREATE TABLE IF NOT EXISTS artists(
                           artist_id VARCHAR PRIMARY KEY, 
-                          name VARCHAR NOT NULL, 
+                          artist_name VARCHAR NOT NULL, 
                           location VARCHAR, 
                           latitude DECIMAL(9, 6), 
                           longitude DECIMAL(9, 6)
